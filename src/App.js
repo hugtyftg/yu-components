@@ -1,4 +1,5 @@
 import './App.less';
+import GradientColorCard from './card/GradientColorCard/GradientColorCard';
 // 文字粒子化
 // import TextParticles from './particle/TextParticles/TextParticles';
 
@@ -11,6 +12,8 @@ function App() {
       {/* <TextParticles/> */}
 
       {/* <ForstedGlassCard children={111} /> */}
+
+      <GradientColorCard children={222} beginColor={'yellow'} endColor={'green'}/>
     </div>
   );
 }
