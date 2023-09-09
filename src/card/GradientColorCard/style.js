@@ -7,6 +7,7 @@ export const GradientColorCardStyle = styled.div.attrs(props => {
     height: props.height,
   }
 })`
+.gradient-color-card {
   position: absolute;
   width: ${props => props.width}px;
   height: ${props => props.height}px;
@@ -37,4 +38,5 @@ export const GradientColorCardStyle = styled.div.attrs(props => {
     padding: 10px;
     border-radius: 50px;
   }
+}
 `;

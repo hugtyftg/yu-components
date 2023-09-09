@@ -1,11 +1,13 @@
 import React from 'react';
-import './FrostedGlassCard.less';
-
+// import './FrostedGlassCard.less';
+import { FrostedClassCardStyle } from './style';
 export default function ForstedGlassCard(props) {
   const {children} = props;
   return (
-    <div className="frosted-glass-card">
-      {children}
-    </div>
+    <FrostedClassCardStyle>
+      <div className="frosted-glass-card">
+        {children}
+      </div>
+    </FrostedClassCardStyle>
   )
 }

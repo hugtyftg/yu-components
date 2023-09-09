@@ -1,3 +1,5 @@
+import styled from "styled-components";
+export const FrostedClassCardStyle = styled.div`
 .frosted-glass-card {
   position: relative;
   padding: 60px;
@@ -11,3 +13,4 @@
   gap: 30px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, .1);
 }
+`;
